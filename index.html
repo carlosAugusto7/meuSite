@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo de Carlos Augusto</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="cabeca">
+        <nav>
+            <ul>
+                <li><a href="#info-pessoal" title="Informações Pessoais">Informações Pessoais</a></li>
+                <li><a href="#objetivo" title="Objetivo Profissional">Objetivo</a></li>
+                <li><a href="#formacao" title="Formação Acadêmica">Formação</a></li>
+                <li><a href="#habilidades" title="Habilidades">Habilidades</a></li>
+                <li><a href="#projetos" title="Projetos Acadêmicos">Projetos</a></li>
+                <li><a href="#certificacoes" title="Cursos e Certificações">Certificações</a></li>
+                <li><a href="#contato" title="Formulário de Contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1>Currículo de Carlos Augusto</h1>
+        <img src="eu1.jpg" alt="Foto de Carlos Augusto" title="Foto de Carlos Augusto" class="imagem">
+
+        <!-- Informações Pessoais -->
+        <section id="info-pessoal">
+            <h2>Informações Pessoais</h2>
+            <ul>
+                <li><i class="fa-solid fa-city"></i> Cidade: Niterói, Rio de Janeiro</li>
+                <li><i class="fa-solid fa-phone"></i> Telefone: 2199297-5234</li>
+                <li><i class="fa-regular fa-envelope"></i> E-mail: Carlosaugusto20003@gmail.com</li>
+                <li><i class="fa-brands fa-linkedin-in"></i> LinkedIn <a href="https://www.linkedin.com/in/carlos-augusto-9b1781313/?trk=opento_sprofile_details">: Meu LinkedIn</a></li>
+                <li><i class="fa-brands fa-instagram"></i> Instagram <a href="https://www.instagram.com/carlos_augusto167?igsh=amVnNXJpajZiaXNw">: Meu Instagram</a></li>
+            </ul>
+        </section>
+
+        <!-- Objetivo Profissional -->
+        <section id="objetivo">
+            <h2>Objetivo Profissional</h2>
+            <p class="objetivo-paragrafo">Estudante de Sistemas de Informação no primeiro período, buscando uma oportunidade de estágio para aplicar e expandir meus conhecimentos em desenvolvimento de software, análise de dados e gestão de TI. Motivado a contribuir com soluções inovadoras e a crescer profissionalmente na área de tecnologia.</p>
+        </section>
+
+        <!-- Formação Acadêmica -->
+        <section id="formacao">
+            <h2>Formação Acadêmica</h2>
+            <table>
+                <tr>
+                    <th>Instituição</th>
+                    <th>Curso</th>
+                    <th>Ano</th>
+                </tr>
+                <tr>
+                    <td>Unilasalle</td>
+                    <td>Bacharelado em Sistemas de Informação</td>
+                    <td>Previsão de Conclusão: 2027</td>
+                </tr>
+                <tr>
+                    <td>CE Cívico-Militar Marco Antônio Gripp</td>
+                    <td>Ensino Médio Completo</td>
+                    <td>2022</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- Habilidades -->
+        <section id="habilidades">
+            <h2>Habilidades</h2>
+            <ul>
+                <li><strong>Linguagens de Programação:</strong> Python, Java, HTML/CSS, JavaScript</li>
+                <li><strong>Ferramentas e Tecnologias:</strong> Git, MySQL, Visual Studio Code</li>
+                <li><strong>Competências Pessoais:</strong> Resolução de problemas, Trabalho em equipe, Comunicação eficaz, Aprendizado rápido</li>
+                <li><strong>Línguas:</strong> Português (nativo), Inglês (intermediário)</li>
+            </ul>
+        </section>
+
+        <!-- Projetos Acadêmicos -->
+        <section id="projetos">
+            <h2>Projetos Acadêmicos</h2>
+            <ul>
+                <li><strong>Projeto de Desenvolvimento Web</strong> - Unilasalle, 2024</li>
+                <li><strong>Análise de Dados com Python</strong> - Unilasalle, 2024</li>
+            </ul>
+        </section>
+
+        <!-- Cursos e Certificações -->
+        <section id="certificacoes">
+            <h2>Cursos e Certificações</h2>
+            <ul>
+                <li>Curso de Introdução à Programação com Python - Unilasalle, 2024</li>
+                <li>Certificação em Fundamentos de TI - Unilasalle, 2024</li>
+            </ul>
+        </section>
+
+        <!-- Formulário de Contato -->
+
+        <section id="contato">
+            <h2>Formulário de Contato</h2>
+            <form>
+                <input type="text" id="nome" name="nome" placeholder="Seu Nome" required>
+                <input type="email" id="email" name="email" placeholder="Seu E-mail" required>
+                <textarea id="mensagem" name="mensagem" placeholder="Sua Mensagem" required></textarea>
+
+                <div class="radio-group">
+                    <label>
+                        <input type="radio" name="tipoContato" value="Pergunta">
+                        <span class="checkmark"></span> Pergunta
+                    </label>
+                    <label>
+                        <input type="radio" name="tipoContato" value="Sugestão">
+                        <span class="checkmark"></span> Sugestão
+                    </label>
+                    <label>
+                        <input type="radio" name="tipoContato" value="Outro">
+                        <span class="checkmark"></span> Outro
+                    </label>
+                </div>
+
+                <!-- Modal -->
+                <div id="meuModal" class="modal">
+                  <div class="modal-content">
+                    <span class="fechar">&times;</span>
+                    <p id="modalMessage"></p>
+                  </div>
+                </div>
+
+                
+                
+                <input type="button" value="Enviar" onclick="enviar()">
+            </form>
+            <div id="resposta"></div>
+        </section>
+
+
+
+
+        <section id="dropdown">
+            <div class="drop">
+                <div class="seletor-personalizado-container">
+                    <div class="seletor-personalizado" onclick="alternarDropdown()">
+                        <span id="opcao-selecionada">Gostou do meu currículo?</span>
+                        <i id="seta" class="seta">&#9662;</i>
+                    </div>
+                    <div class="opcoes-dropdown">
+                        <div class="opcao" onclick="selecionarOpcao('Sim')">Sim</div>
+                        <div class="opcao" onclick="selecionarOpcao('Mais ou menos')">Mais ou menos</div>
+                        <div class="opcao" onclick="selecionarOpcao('Não')">Não</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+
+    
+    <section id="perguntas">
+        <div class="card">
+            <h2>Dúvidas Frequentes</h2>
+            <div class="accordion">
+                <div class="item">
+                    <button class="titulo">Qual a vantagem de contratar você? <i class="fa fa-chevron-down"></i></button>
+                    <div class="conteudo">
+                        <p>Tenho experiência sólida em HTML, CSS, JavaScript e PostgreSQL, o que me permite criar soluções web eficientes e dinâmicas, além de garantir uma boa estrutura de banco de dados. Estou sempre focado em entregar resultados de alta qualidade, com foco em performance e usabilidade.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <button class="titulo">Oque planejas para o futuro? <i class="fa fa-chevron-down"></i></button>
+                    <div class="conteudo">
+                        <p>Meu objetivo é me tornar um desenvolvedor full stack, além de melhorar minhas habilidades em inglês e me desenvolver como líder. Acredito que minha dedicação ao aprendizado contínuo e minhas habilidades técnicas podem agregar valor ao seu time.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <button class="titulo">Como você lida com mudanças de última hora em um projeto? <i class="fa fa-chevron-down"></i></button>
+                    <div class="conteudo">
+                        <p>Eu sou uma pessoa que consegue manter a calma mesmo em situações de mudança de última hora. Gosto de lidar com os problemas de forma rápida e prática, sem perder a agilidade. Mesmo sendo alguém naturalmente agitado, sempre tento focar na solução imediata, priorizando o que precisa ser feito para garantir que o projeto siga conforme o esperado.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Carlos Augusto. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="curri.js"></script>
+</body>
+</html>
